@@ -1,0 +1,27 @@
+* The People 
+1. The Lady 
+2. Man #1 
+3 Man #2
+* Questions
+** Is this related to their company or is it general manufacturing   
+** Architecture oriented or not? 
+*** If archi => Projo Jojo => No code, Arch Diags.
+* Idea 
+** Still the same 
+** How to store the data? 
+Come from where, how it is stored .Is this related to their company or is it general manufacturing  
+res and why it is stored? 
+* Presentation 
+** Unstructured Data: Not being used 
+** Text Aspects: Gathering, Storing 
+Distributed across Data centres, draw the arch diagram. 
+** Data now accessed.
+How and why 
+** BE AWARE OF THE STORAGE 
+** Why this is efficient, make a case for it 
+* Other ideas
+** Data Pre-processing 
+1. Apriori, BIRCH 
+2. Association Rule mining 
+
+
