@@ -1,0 +1,53 @@
+* The Company 
+About the company: Data company, person does not know maufacturing.
+Hadoop knowledge also not present. They have fabrication centers.
+
+1. The Lady 
+2. Man #1 
+3 Man #2
+* Questions
+** Is this related to their company or is it general manufacturing   
+** Architecture oriented or not? 
+*** If archi => Projo Jojo => No code, Arch Diags
+
+.
+** Solutions to use with the data, or do you already have use
+* Idea 
+** Still the same 
+Idea: Logging
+** How to store the data? 
+Come from where, how it is stored .Is this related to their company or is it general manufacturing  
+res and why it is stored? 
+
+We need to be aware of how we store our data. Structured v. unstructured
+data
+
+Data access is something that we need to talk about. Store productive
+data only.
+
+** Presentation Tasks 
+1. Dataset
+2. UI mock up
+3. Personalized data summary
+4. Efficiency: Hadoop is good for a particular task, wheras other data
+   can be structured in a different way.
+5. Data preprocessing
+6. Rule mining: Apriori, BIRCH, methods to get the rulesets more
+   efficiently
+7. Intelligent Text Retrieval: To be mentioned
+8. Secure ;)
+
+* Presentation 
+** Unstructured Data: Not being used 
+** Text Aspects: Gathering, Storing 
+Distributed across Data centres, draw the arch diagram. 
+** Data now accessed.
+How and why 
+** BE AWARE OF THE STORAGE 
+** Why this is efficient, make a case for it 
+* Other ideas
+** Data Pre-processing 
+1. Apriori, BIRCH 
+2. Association Rule mining 
+
+
