@@ -49,5 +49,6 @@ How and why
 ** Data Pre-processing 
 1. Apriori, BIRCH 
 2. Association Rule mining 
-
+* Things  
+1. Architecture, Information Retrieval Techniques 
 
