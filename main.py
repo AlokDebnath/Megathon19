@@ -1,21 +1,11 @@
+from utils import do_stuff_and_get_summary, load_data_from_pickle
 
 SUMMARY_LENGTH = 5
 
 
 if __name__ == '__main__':
-
+    train_corpus_path = "data/log_files/train.txt"
+    data_map = load_data_from_pickle(train_corpus_path)
     list_of_sentences, sentence_metadata = get_sentences_with_metadata(data_map)
     summary = do_stuff_and_get_summary(list_of_sentences, sentence_metadata)
-    list_of_sentences, sentence_metadata = get_sentences_with_metadata(data_map)
-    list_of_sentences = [sentence.strip() for sentence in list_of_sentences if len(sentence) > 1]
-    processed_sentences = make_processed_sentences(list_of_sentences)
-    sentence_graph, sentence_common_graph = make_graph(processed_sentences, sentence_metadata)
-    sentence_scores = calculate_scores(sentence_graph)
-    sentence_page_scores = calculate_pagerank_scores(sentence_common_graph)
-    sentence_score_final = [sentence_scores[i] * (sentence_page_scores[i]+1)  for i in range(len(sentence_scores))]
-
-
-    ### Couple of different ways of doingsummaries.
-    summary = rank_sentences_and_make_summary(list_of_sentences, processed_sentences, sentence_graph, sentence_scores, SUMMARY_LENGTH)
-    summary = rank_sentences_and_make_summary(list_of_sentences, processed_sentences, sentence_graph, sentence_score_final, SUMMARY_LENGTH)
-    summary = rank_sentences_and_make_summary(list_of_sentences, processed_sentences, sentence_graph, sentence_page_scores, SUMMARY_LENGTH)
+    print(summary)
